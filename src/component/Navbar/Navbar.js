@@ -28,7 +28,6 @@ export default function CenteredTabs() {
         onChange={handleChange}
         indicatorColor="primary"
         textColor="primary"
-        position="fixed"
         centered
       >
         <Tab label="HOME" />

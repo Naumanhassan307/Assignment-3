@@ -5,13 +5,17 @@ import ImageSlider from "./component/Slider/Slider"
 
 import MediaCard from "./component/Cards/Card"
 
+import "./App.css"
+
 
 
 
 function App() {
   return <div className="App">
-    <Header />
+    
+      <Header />
     <CenteredTabs />
+  
     <ImageSlider />
     <MediaCard />
     

@@ -13,8 +13,8 @@ import "./header.css"
 
 function Header (){
     return(
-        <>
-            <Navbar sticky="top" >
+       
+            <Navbar sticky="top"  className="nbar">
                 <Navbar.Brand> <div><LanguageIcon /></div>  </Navbar.Brand>
                 <Navbar.Brand> <div><FavoriteBorderIcon /></div>  </Navbar.Brand>
                 <Navbar.Toggle />
@@ -25,7 +25,8 @@ function Header (){
                 </Navbar.Collapse>
                 <div><AddShoppingCartIcon /></div>
             </Navbar>
-        </>    
+                
+           
     )
 }
 export default Header;

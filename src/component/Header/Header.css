@@ -1,4 +1,8 @@
 .ttlName{
-    color: red !important;
+    color: rgb(45, 98, 214) !important;
     margin-right: 70px !important;
 }
+.nbar{
+    background-color: rgba(238, 230, 230, 0.678) !important;
+}
+
