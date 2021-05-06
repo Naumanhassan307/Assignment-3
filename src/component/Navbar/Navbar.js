@@ -22,12 +22,13 @@ export default function CenteredTabs() {
   };
 
   return (
-    <Paper className={classes.root} className="tabs">
+    <Paper className={classes.root} className="tabs" >
       <Tabs
         value={value}
         onChange={handleChange}
         indicatorColor="primary"
         textColor="primary"
+        position="fixed"
         centered
       >
         <Tab label="HOME" />
