@@ -13,7 +13,7 @@ import "./Header.css"
 function Header (){
     return(
         <>
-            <Navbar>
+            <Navbar sticky="top">
                 <Navbar.Brand> <div><LanguageIcon /></div>  </Navbar.Brand>
                 <Navbar.Brand> <div><FavoriteBorderIcon /></div>  </Navbar.Brand>
                 <Navbar.Toggle />
