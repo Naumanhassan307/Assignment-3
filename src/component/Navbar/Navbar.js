@@ -1,15 +1,15 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Paper from "@material-ui/core/Paper";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
 
-import "./navbar.css"
+import "./navbar.css";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
     flexGrow: 1,
-    
   },
 });
 
@@ -22,18 +22,29 @@ export default function CenteredTabs() {
   };
 
   return (
-    <Paper className={classes.root} className="tabs" >
+    <Paper className={classes.root} className="tabs">
       <Tabs
         value={value}
         onChange={handleChange}
         indicatorColor="primary"
         textColor="primary"
         centered
+        
       >
-        <Tab label="HOME" />
-        <Tab label="PAGES" />
-        <Tab label="FEATURES" />
-        <Tab label="BLOG" />
+        <Link to="/" >
+          <Tab label="HOME"  />
+        </Link>
+        <Link to="/categories">
+         
+          <Tab label="CATEGORIES" />
+        </Link>
+        <Link to="/features">
+         
+          <Tab label="FEATURES" />
+        </Link>
+        <Link to="/blog">
+          <Tab label="BLOG" />
+        </Link>
       </Tabs>
     </Paper>
   );

@@ -6,10 +6,20 @@
     /* padding: 50px !important; */
 }
 .single{
-    /* margin: 30px !important; */
-    height: 200px !important;
+    /* margin: 10px !important; */
+    height: 290px !important;
     width: 250px !important;
 }
 .wholeCard{
-margin: 40px !important;
+    padding: 25px !important;
+    margin: 65px !important;
+    height: 450px !important;
+    width: 300px !important;
 }
+
+/* .imag{
+
+    height: 210px !important;
+    width: 210px !important;
+    border: 1px solid red !important;
+} */
