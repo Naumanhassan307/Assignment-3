@@ -19,7 +19,7 @@ function Header (){
                 <Navbar.Brand> <div><FavoriteBorderIcon /></div>  </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-center">
-                    <h1 className="ttlName">COSSO</h1>
+                    <h3 className="ttlName">COSSO TRADES</h3>
                 <Navbar.Text>
                 </Navbar.Text>
                 </Navbar.Collapse>

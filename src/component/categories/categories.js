@@ -1,9 +1,12 @@
 
 
+
+
 function Categories(){
     return(
         <>
         categories..
+        
         </>
     )
 }
