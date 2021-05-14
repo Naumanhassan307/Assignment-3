@@ -1,19 +1,20 @@
 import { useEffect, useState } from "react";
 
+export function UseCategories() {
+  const [categories, setCategories] = useState([{}]);
 
+  async function categ() {
+    let apiResponse = await fetch(
+      "https://fakestoreapi.com/products/category/jewelery"
+    );
+    let product = await apiResponse.json();
+    setCategories(product);
+  }
 
-function UseCategories(){
-    // const [categories]= useState([])
+  useEffect(() => {
+    categ();
+  }, []);
 
-    async function categ(){
-        let apiResponse = await fetch('https://fakestoreapi.com/products/categories')
-        let product = await apiResponse.json()
-        console.log("MY Cate", product)
-    }
-
-    useEffect(()=>{
-    categ();        
-
-    }, [])
+  console.log("MY Cate", categories);
+  return [categories];
 }
-export default UseCategories;
