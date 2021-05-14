@@ -3,12 +3,10 @@ import Header from "./component/Header/Header";
 import CenteredTabs from "./component/Navbar/Navbar";
 import ImageSlider from "./component/Slider/Slider";
 import Footer from "./component/Footer/Footer";
-import MediaCard from "./component/Cards/Card";
 
-
+import Routing from "./config/Routiing";
 
 import "./App.css";
-import Routing from "./config/Routiing";
 
 function App() {
   return (
@@ -17,8 +15,8 @@ function App() {
       <CenteredTabs />
 
       <ImageSlider />
-      {/* <MediaCard /> */}
-      <Routing />    
+
+      <Routing />
 
       <Footer />
     </div>

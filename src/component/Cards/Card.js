@@ -56,7 +56,7 @@ export default function MediaCard() {
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                Learn More
+                See Details
               </Button>
             </CardActions>
           </Card>
