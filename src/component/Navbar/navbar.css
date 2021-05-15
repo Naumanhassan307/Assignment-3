@@ -2,3 +2,9 @@
     /* position: static !important; */
     background-color: rgba(238, 230, 230, 0.329) !important;
 }
+
+.change-color:focus{
+   
+     background-color: rgba(238, 230, 230, 0.781) !important;
+
+}

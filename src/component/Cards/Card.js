@@ -35,7 +35,7 @@ export default function MediaCard() {
 
   const [allProducts]= useCardapi()
 
-  // console.log("Card vali pro", allProducts)
+  console.log("Card vali pro", allProducts)
 
   return (
     <div className="car">

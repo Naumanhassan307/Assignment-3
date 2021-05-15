@@ -8,7 +8,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 
 import Typography from "@material-ui/core/Typography";
 
-import { UseCategories, useState } from "./useCategories";
+import { UseJewelery } from "./useJewelery";
 import ScrollDialog from "../Cards/cardDetail";
 
 const useStyles = makeStyles({
@@ -21,7 +21,7 @@ const useStyles = makeStyles({
 });
 
 export default function Categories() {
-  const [allProducts] = UseCategories();
+  const [allProducts] = UseJewelery();
 
   
 
